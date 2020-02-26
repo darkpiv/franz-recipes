@@ -1,0 +1,14 @@
+{
+  "id": "nexion",
+  "name": "Nexion",
+  "version": "1.0.0",
+  "description": "Nexion at GEEK Up",
+  "main": "index.js",
+  "author": "Minh Trung Nguyễn <trung@eye-solution.vn>",
+  "license": "MIT",
+  "config": {
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "serviceURL": "https://nexion.geekup.vn/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "alfred",
+  "name": "Alfred",
+  "version": "1.0.0",
+  "description": "Alfred GEEK Up",
+  "main": "index.js",
+  "author": "Trung Nguyễn <trung.nm@geekup.vn>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://alfred.geekup.vn/"
+  }
+}

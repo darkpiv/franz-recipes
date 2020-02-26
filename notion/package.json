@@ -1,0 +1,14 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "version": "1.0.0",
+  "description": "Nexion at GEEK Up",
+  "main": "index.js",
+  "author": "nhat.hd <nhat.hd@geekup.vn>",
+  "license": "MIT",
+  "config": {
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "serviceURL": "https://notion.so"
+  }
+}

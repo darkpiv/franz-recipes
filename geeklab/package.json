@@ -1,0 +1,12 @@
+{
+  "id": "geeklab",
+  "name": "GEEK Lab",
+  "version": "1.0.0",
+  "description": "GEEK Lab",
+  "main": "index.js",
+  "author": "Trung Nguyễn <trung.nm@geekup.vn>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://gitlab.geekup.io/"
+  }
+}

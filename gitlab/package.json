@@ -1,0 +1,12 @@
+{
+  "id": "gitlab",
+  "name": "GitLab",
+  "version": "1.0.0",
+  "description": "GitLab",
+  "main": "index.js",
+  "author": "Mạnh Lại <manh@eye-solution.vn>",
+  "license": "MIT",
+  "config": {
+    "hasCustomUrl": true
+  }
+}

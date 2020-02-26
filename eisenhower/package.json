@@ -1,0 +1,12 @@
+{
+  "id": "eisenhower",
+  "name": "Eisenhower Matrix",
+  "version": "1.0.0",
+  "description": "Eisenhower Matrix",
+  "main": "index.js",
+  "author": "Trung Nguyễn <trung.nm@geekup.vn>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.eisenhower.me/"
+  }
+}

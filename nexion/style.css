@@ -1,0 +1,35 @@
+html {
+	background: #ffffff;
+}
+.app__body.font--open_sans {
+	font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: none;
+}
+
+.app__body.font--roboto {
+	font-family: 'IBM Plex Sans', sans-serif;
+	letter-spacing: 0px;
+}
+.sidebar--left .nav-pills__unread-indicator {
+	background: rgb(240, 71, 71) !important;
+}
+
+.sidebar--left .nav-pills__unread-indicator span {
+	color: #ffffff !important;
+	filter: brightness(0) invert(1);
+}
+.sidebar--left .sidebar-item__name {
+	line-height: 20px !important;
+}
+
+.app__body .sidebar--left .badge {
+	background: rgb(240, 71, 71) !important;
+}
+.new-separator .separator__text {
+	background: gray !important;
+	color: white !important;
+}
+
+.sidebar--left .sidebar-item__name {
+	font-size: 16px !important;
+}

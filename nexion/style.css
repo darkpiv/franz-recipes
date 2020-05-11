@@ -1,29 +1,48 @@
-html {
-	background: #ffffff;
+.app__body.font--open_sans {
+	font-family: 'SVN-Product Sans', sans-serif;
+	letter-spacing:none;
+}
+
+.app__body.font--roboto {
+	font-family: 'SVN-Product Sans', sans-serif;
+	letter-spacing: 0px;
+}
+.sidebar--left .nav-pills__unread-indicator {
+	background: rgb(240, 71, 71);
+}
+.sidebar--left .sidebar-item__name {
+	line-height: 20px;
+}
+
+.app__body .sidebar--left .badge{
+	background: rgb(240, 71, 71);
+}
+.new-separator .separator__text {
+background: gray !important;
+	color: white !important;
+}
+
+.sidebar--left .sidebar-item__name {
+	font-size: 16px;
 }
 .app__body.font--open_sans {
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'SVN-Product Sans', sans-serif;
 	letter-spacing: none;
 }
 
 .app__body.font--roboto {
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'SVN-Product Sans', sans-serif;
 	letter-spacing: 0px;
 }
 .sidebar--left .nav-pills__unread-indicator {
-	background: rgb(240, 71, 71) !important;
-}
-
-.sidebar--left .nav-pills__unread-indicator span {
-	color: #ffffff !important;
-	filter: brightness(0) invert(1);
+	background: rgb(240, 71, 71);
 }
 .sidebar--left .sidebar-item__name {
-	line-height: 20px !important;
+	line-height: 20px;
 }
 
 .app__body .sidebar--left .badge {
-	background: rgb(240, 71, 71) !important;
+	background: rgb(240, 71, 71);
 }
 .new-separator .separator__text {
 	background: gray !important;
@@ -31,5 +50,25 @@ html {
 }
 
 .sidebar--left .sidebar-item__name {
-	font-size: 16px !important;
+	font-size: 16px;
+}
+
+.NotificationSeparator .separator__text {
+	color: #ffffff;
+	font-weight: normal;
+	background: #F44336;
+}
+
+.Separator .separator__text {
+	background: #399aef;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+code {
+color: #ffffff !important;
+
+background: #18509d !important;
+
+font-family: monospace;
 }

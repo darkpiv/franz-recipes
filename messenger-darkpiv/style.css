@@ -6,7 +6,7 @@ select,
 td,
 textarea,
 #facebook ._-kb {
-	font-family: SVN-Product Sans, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+	font-family: IBM Plex Sans, SVN-Product Sans, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
 body._-kb,
@@ -19,7 +19,7 @@ body select,
 body td,
 body textarea,
 html#facebook ._-kb {
-	font-family: SVN-Product Sans, Roboto Condensed, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+	font-family: IBM Plex Sans, SVN-Product Sans, Roboto Condensed, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
 :focus {

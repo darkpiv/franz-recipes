@@ -1,17 +1,28 @@
 .app__body.font--open_sans {
-	font-family: 'SVN-Product Sans', sans-serif;
+	font-family: 'Fira Sans' !important;
 	letter-spacing: 0px;
 }
 
+.thread-header a {
+	font-weight: 600;
+}
+.thread-header p {
+	font-style: italic;
+}
+
+.sidebar--left {
+	width: 280px;
+}
+.app__content {
+	margin-left: 280px;
+}
+
 .app__body.font--roboto {
-	font-family: 'SVN-Product Sans', sans-serif;
+	font-family: 'Fira Sans' !important;
 	letter-spacing: 0px;
 }
 .sidebar--left .nav-pills__unread-indicator {
 	background: rgb(240, 71, 71);
-}
-.sidebar--left .sidebar-item__name {
-	line-height: 20px;
 }
 
 .app__body .sidebar--left .badge {
@@ -21,44 +32,64 @@
 	background: gray !important;
 	color: white !important;
 }
-
-.sidebar--left .sidebar-item__name {
+.attachment__title a {
 	font-size: 16px;
 }
-.app__body.font--open_sans {
-	font-family: 'SVN-Product Sans', sans-serif;
-	letter-spacing: none;
+.post__pinned-badge {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
-.app__body.font--roboto {
-	font-family: 'SVN-Product Sans', sans-serif;
-	letter-spacing: 0px;
+.attachment__body attachment__body--no_thumb > * p a em span {
+	font-size: 16px;
 }
-.sidebar--left .nav-pills__unread-indicator {
-	background: rgb(240, 71, 71);
-}
-.sidebar--left .sidebar-item__name {
-	line-height: 20px;
+.post-message__text-container p {
+	font-size: 16px;
+	line-height: 26px;
 }
 
-.app__body .sidebar--left .badge {
-	background: rgb(240, 71, 71);
+.post-message__text-container span {
+	line-height: 26px;
+	font-size: 16px;
 }
-.new-separator .separator__text {
-	background: gray !important;
-	color: white !important;
+.channel-header__top {
+	font-size: 16px;
 }
-
-.sidebar--left .sidebar-item__name {
+.post__footer span {
+	font-size: 12px;
+}
+.sidebar--left .sidebar-item__name span {
+	line-height: 28px;
+	font-size: 18px;
+}
+.custom-textarea--emoji-picker {
 	font-size: 16px;
 }
 
+.user-popover {
+	font-size: 16px;
+}
+.textarea-wrapper #post_textbox {
+	font-size: 16px;
+}
 .NotificationSeparator .separator__text {
 	color: #ffffff;
 	font-weight: normal;
 	background: #f44336;
 }
+.post-message__text p {
+	font-size: 16px;
+}
 
+.post__header button {
+	font-size: 18px;
+}
+
+.sidebar-section__header span {
+	font-size: 18px;
+}
 .Separator .separator__text {
 	background: #399aef;
 	color: white;
@@ -70,5 +101,34 @@ code {
 
 	background: #18509d !important;
 
+	font-family: monospace !important;
+}
+
+body {
+	font-family: 'Fira Sans' !important;
+}
+.CodeMirror span {
 	font-family: monospace;
+}
+span div a ul button li text {
+	font-family: 'Fira Sans' !important;
+}
+.fa {
+	font-family: FontAwesome !important;
+}
+
+[class*='sf2'] {
+	font-family: 'seafile-font2' !important;
+}
+[class^='icon-'],
+[class*=' icon-'] {
+	font-family: FontAwesome !important;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	vertical-align: baseline;
+}
+.user-popover {
+	font-family: 'Fira Sans' !important;
 }

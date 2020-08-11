@@ -1,51 +1,6 @@
-body,
-button,
-input,
-label,
-select,
-td,
-textarea,
-#facebook ._-kb {
-	font-family: IBM Plex Sans, SVN-Product Sans, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+body > * {
+	font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
 }
-
-body._-kb,
-body button,
-body a,
-body span,
-body input,
-body label,
-body select,
-body td,
-body textarea,
-html#facebook ._-kb {
-	font-family: IBM Plex Sans, SVN-Product Sans, Roboto Condensed, Helvetica Neue, Helvetica, Arial, sans-serif !important;
-}
-
-:focus {
-	outline: none;
-}
-
-._whq {
-	font-weight: bold;
-}
-
-._1gyw .img {
-	border-radius: 50%;
-}
-
-._3uox {
-	opacity: 0.9;
-	padding: 6px;
-	border-radius: 2px;
-}
-
-.uiSelector .uiSelectorButton:active {
-	background-color: initial;
-}
-
-._52jv > .img {
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
+* {
+	font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
 }
